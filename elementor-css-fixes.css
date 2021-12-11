@@ -1,0 +1,6 @@
+/* Remove dirty Lightbox Dropshadows on Media Files */
+
+.elementor-lightbox .elementor-lightbox-image, .elementor-lightbox .elementor-video-container {
+    box-shadow: none !important;
+    filter: drop-shadow(0 0 30px rgba(0,0,0,.3)) drop-shadow(0 0 8px rgba(0,0,0,.3)) !important;
+}
